@@ -125,7 +125,7 @@
     <div class="w-max rounded-full bg-brand-tertiary/80 shadow-2xl px-4 py-2">
         <span class="text-brand-secondary cursor-pointer" on:click={openNewArtDialog}>New Art</span>
     </div>
-    <div class="grid grid-cols-5 gap-20 mt-4">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-12 py-8 px-2 overflow-hidden">
         {#await promise}
             {#each [...Array(10).keys()] as _}
                 <div class="rounded-lg drop-shadow-lg shadow-lg w-[18rem] max-w-1/5 h-[24rem] max-h-1/3 relative animate-pulse">

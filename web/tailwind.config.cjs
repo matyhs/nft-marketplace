@@ -12,6 +12,9 @@ module.exports = {
           tertiary: 'rgb(var(--color-tertiary) / <alpha-value>)'
         },
       },
+      screens: {
+        '3xl': '1792px' 
+      }
     },
   },
   plugins: [],

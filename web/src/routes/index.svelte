@@ -50,7 +50,7 @@
 
 <div class="font-mono w-full">
     {#if promise != null}
-    <div class="grid grid-cols-5 gap-20 mt-4 px-2">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-12 py-8 px-2 overflow-hidden">
         {#await promise}
             {#each [...Array(10).keys()] as _}
                 <div class="rounded-lg drop-shadow-lg shadow-lg w-[18rem] max-w-1/5 h-[24rem] max-h-1/3 relative animate-pulse">
